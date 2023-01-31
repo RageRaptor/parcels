@@ -32,8 +32,8 @@ jobs:
               with:
                 repository: QDUNI/FairSECO
                 path: FAIRSECO_Assets
-                ref: 'dev'
-            - uses: QDUNI/FAIRSECO@dev
+                ref: 'main'
+            - uses: QDUNI/FAIRSECO@main
               with:
                   myToken: ${{ secrets.GITHUB_TOKEN }}
             - uses: actions/upload-artifact@v3
