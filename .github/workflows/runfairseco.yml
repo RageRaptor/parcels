@@ -32,6 +32,7 @@ jobs:
               with:
                 repository: QDUNI/FairSECO
                 path: FAIRSECO_Assets
+                ref: 'dev'
             - uses: QDUNI/FAIRSECO@dev
               with:
                   myToken: ${{ secrets.GITHUB_TOKEN }}
